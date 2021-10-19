@@ -15,42 +15,6 @@
     transition: 0.3s all linear;
 }
 
-.border li:nth-child(5n+1) {
-    border-color: #8bc63e;
-}
-
-.border li:nth-child(5n+2) {
-    border-color: #fcba30;
-}
-
-.border li:nth-child(5n+3) {
-    border-color: #1ccfc9;
-}
-
-.border li:nth-child(5n+4) {
-    border-color: #493224;
-}
-
 .border li:hover {
     border-left: 10px solid transparent;
-}
-
-.border li:nth-child(5n + 1):hover {
-    border-right: 10px solid #f05d22;
-}
-
-.border li:nth-child(5n + 2):hover {
-    border-right: 10px solid #8bc63e;
-}
-
-.border li:nth-child(5n + 3):hover {
-    border-right: 10px solid #fcba30;
-}
-
-.border li:nth-child(5n + 4):hover {
-    border-right: 10px solid #1ccfc9;
-}
-
-.border li:nth-child(5n + 5):hover {
-    border-right: 10px solid #493224;
 }
