@@ -8,13 +8,14 @@
     padding: 7px 20px;
     margin-bottom: 10px;
     border-radius: 5px;
-    border-left: 10px solid #f05d22;
+    border-left: 10px solid lightgray;
     box-shadow: 2px -2px 5px 0 rgba(0, 0, 0, .1), -2px -2px 5px 0 rgba(0, 0, 0, .1), 2px 2px 5px 0 rgba(0, 0, 0, .1), -2px 2px 5px 0 rgba(0, 0, 0, .1);
     font-size: 20px;
     letter-spacing: 2px;
     transition: 0.3s all linear;
+    cursor: pointer;
 }
 
 .border li:hover {
-    border-left: 10px solid transparent;
+    border-left: 10px solid olive;
 }
